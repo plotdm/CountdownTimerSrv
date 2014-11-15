@@ -8,21 +8,21 @@ class Timer:
     # Initializes the timer.
     #
     def __init__(self):
-        self._is_running = false
+        self._is_running = False
 
     #
     # @method start
     # Starts the timer.
     #
     def start(self):
-        self._is_running = true
+        self._is_running = True
 
     #
     # @method stop
     # Stops the timer.
     #
     def stop(self):
-        self._is_running = false
+        self._is_running = False
 
     #
     # @method is_running
