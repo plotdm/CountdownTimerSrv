@@ -1,8 +1,8 @@
 #
-# @class timer
+# @class Timer
 # Represents a timer instance. Used to control timer's behaviour.
 #
-class timer:
+class Timer:
     #
     # @method __init__
     # Initializes the timer.

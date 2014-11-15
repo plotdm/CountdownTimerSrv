@@ -1,6 +1,6 @@
-class timer_manager:
-    def getInfo(self):
+class TimerManager:
+    def get_info(self):
         return 'timer_manager object'
 
-    def getTimers(self):
+    def get_timers(self):
         return ['timer1', 'timer2', 'timer3', 'timer 4']

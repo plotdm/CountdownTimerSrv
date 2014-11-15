@@ -1,7 +1,7 @@
 # Entry point for Countdown Server
 #
 
-import timer_manager
+import timermanager
 import web
 
 urls = (
@@ -17,9 +17,9 @@ urls = (
 class test:
     def GET(self):
         msg = 'testing...'
-        manager = timer_manager.timer_manager()
-        msg += '\nManager Object Info: ' + manager.getInfo()
-        msg += '\nManaged timers: ' + ', '.join(manager.getTimers())
+        manager = timermanager.TimerManager()
+        msg += '\nManager Object Info: ' + manager.get_info()
+        msg += '\nManaged timers: ' + ', '.join(manager.get_timers())
         return msg
 
 #
