@@ -1,33 +1,21 @@
-#
-# @class Timer
-# Represents a timer instance. Used to control timer's behaviour.
-#
 class Timer:
-    #
-    # @method __init__
-    # Initializes the timer.
-    #
+    """Representds a timer instance. Objest of the class are used
+    for controlling timer's behavior.
+    """
+
     def __init__(self):
+        """Initializes the timer."""
         self._is_running = False
 
-    #
-    # @method start
-    # Starts the timer.
-    #
     def start(self):
+        """Starts the timer."""
         self._is_running = True
 
-    #
-    # @method stop
-    # Stops the timer.
-    #
     def stop(self):
+        """Stops the timer."""
         self._is_running = False
 
-    #
-    # @method is_running
-    # Checks whether the timer is running.
-    # @return True if the timer is running, false otherwise.
-    #
     def is_running(self):
+        """Checks whether the timer is running.
+        Returns True if the timer is running, False otherwise."""
         return self._is_running
